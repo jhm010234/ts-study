@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "CommonJS",
+    "outDir": "dist",
+    "strict": false,
+    "moduleDetection": "force"
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["src"]
+}
