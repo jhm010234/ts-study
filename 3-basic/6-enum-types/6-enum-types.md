@@ -47,10 +47,12 @@ const user3 = {
 ```
 
 <br>
-> tsx src/chapter5.ts 실행 결과
-! [enum-result](../images/enum-result.png)
+> tsx src/chapter5.ts 실행 결과 
+<br>
 
-<br><br>
+![enum-result](https://raw.githubusercontent.com/jhm010234/ts-study/master/3-basic/images/enum-result.png)
+
+<br>
 
 enum은 아래와 같이 숫자를 입력하지 않아도 자동으로 숫자가 들어간다.  
 또한, 이렇게 값에 숫자가 할당되는걸 **숫자형 이넘**이라고 한다
