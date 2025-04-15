@@ -47,8 +47,10 @@ const user3 = {
 ```
 
 <br>
-> tsx src/chapter5.ts 실행 결과 <br>
-![enum-result](![enum-result](https://github.com/jhm010234/ts-study/blob/master/3-basic/images/enum-result.png?raw=true)
+> tsx src/chapter5.ts 실행 결과 
+<br>
+
+![enum-result](https://github.com/jhm010234/ts-study/blob/master/3-basic/images/enum-result.png?raw=true)
 
 <br><br>
 
