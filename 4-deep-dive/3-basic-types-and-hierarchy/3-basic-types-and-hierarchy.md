@@ -1,16 +1,16 @@
 # 타입 계층도와 함께 기본 타입 살펴보기
 
-[타입계층도](../section4/타입계층도.png)
+![타입계층도](../section4/타입계층도.png)
 
 ## unknown
 
 unknown 타입은 타입 계층도 최상단에 위치로, 모든 타입의 슈퍼 타입이다. <br>
-[unknown](../section4/unknown.png)
+![unknown](../section4/unknown.png)
 
 <br><br>
 
 즉 unknown 타입을 전체 집합으로 볼 수 있다.<br>
-[unknown2](../section4/unknown2.png)
+![unknown2](../section4/unknown2.png)
 
 ```ts
 function unknownExam() {
@@ -34,9 +34,9 @@ function unknownExam() {
 ## never
 
 타입 계층도에서 보면 가장 아래에 위치해있다. 즉 never 타입은 모든 타입의 서브타입이다. (모든 집합의 부분집합이다) = 공집합  
-[never1](../section4/never.png) <br><br>
+![never1](../section4/never.png) <br><br>
 never는 **아무런 값도 저장할 수 없을 때**, 사용하면 좋다.<br>
-[never2](../section4/never2.png)
+![never2](../section4/never2.png)
 
 ```ts
 function neverExam() {
@@ -61,8 +61,8 @@ function neverExam() {
 ## void
 
 void 타입은 undefined 타입의 super 타입이다.
-[void](../section4/void.png)
-[void2](../section4/void2.png)
+![void](../section4/void.png)
+![void2](../section4/void2.png)
 
 ```ts
 function voidExam() {
@@ -81,7 +81,7 @@ function voidExam() {
 ## any
 
 unknown 타입의 서브 타입이지만 **치트키**로 계층도를 완벽하게 무시한다.  
-[any](../section4/any.png)
+![any](../section4/any.png)
 이게 무슨 말이냐면, any 타입은 모든 타입의 슈퍼 타입으로 위치하기도 하며, 모든 타입의 서브 타입으로 위치하기도 한다.
 
 ```ts
