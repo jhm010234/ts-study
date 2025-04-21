@@ -52,5 +52,5 @@ book = programmingbook;
 let book2: Book = {
   name: "한 입 크기로 잘라먹는 리액트",
   price: 3300,
-  skill: "reactjs",
-};
+//   skill: "reactjs",
+}; 
