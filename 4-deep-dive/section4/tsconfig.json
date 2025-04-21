@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "outDir": "dist", //이쪽에 파일이 생성됨
+    "strict": true,
+    "moduleDetection": "force"
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["src"]
+}
